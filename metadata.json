@@ -1,0 +1,5 @@
+{
+  "name": "育てようオリジナルペット",
+  "description": "A demo application where you can choose a virtual pet and take care of it by feeding, bathing, and playing. You can also set an alarm clock.",
+  "requestFramePermissions": []
+}
