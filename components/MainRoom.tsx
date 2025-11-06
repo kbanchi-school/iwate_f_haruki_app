@@ -15,7 +15,7 @@ const MainRoom: React.FC = () => {
   }
 
   const actionButtons = [
-    { label: 'ごはん', screen: 'feed', icon: '🍔' },
+    { label: 'ごはん', screen: 'feed', icon: '🥣' },
     { label: 'おふろ', screen: 'bath', icon: '🛁' },
     { label: 'あそぶ', screen: 'play', icon: '🎲' },
     { label: 'とけい', screen: 'alarm', icon: '⏰' },

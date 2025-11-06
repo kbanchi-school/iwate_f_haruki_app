@@ -49,7 +49,7 @@ export const PetProvider: React.FC<PetProviderProps> = ({ children }) => {
             
             return newStats;
         });
-    }, 8000); // 8秒ごとに各ステータスが1ずつ減る
+    }, 150000); // 2分30秒ごとに各ステータスが1ずつ減る
 
     return () => clearInterval(statDecayInterval);
   }, [selectedPet, currentScreen, navigateTo]);

@@ -19,20 +19,8 @@ const BirdImage: React.FC<{ className?: string }> = () => (
     <img src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=200&q=80" alt="トリ" className="w-full h-full object-cover" />
 );
 
-const RedPandaImage: React.FC<{ className?: string }> = () => (
-    <img src="https://images.unsplash.com/photo-1619535105257-43c713b93a02?auto=format&fit=crop&w=200&q=80" alt="レッサーパンダ" className="w-full h-full object-cover" />
-);
-
-const KoalaImage: React.FC<{ className?: string }> = () => (
-    <img src="https://images.unsplash.com/photo-1592651961313-603b1373e970?auto=format&fit=crop&w=200&q=80" alt="コアラ" className="w-full h-full object-cover" />
-);
-
 const PandaImage: React.FC<{ className?: string }> = () => (
     <img src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?auto=format&fit=crop&w=200&q=80" alt="パンダ" className="w-full h-full object-cover" />
-);
-
-const HedgehogImage: React.FC<{ className?: string }> = () => (
-    <img src="https://images.unsplash.com/photo-1530261162208-59197a51c41f?auto=format&fit=crop&w=200&q=80" alt="ハリネズミ" className="w-full h-full object-cover" />
 );
 
 
@@ -40,11 +28,8 @@ export const PET_CHARACTERS: PetCharacter[] = [
   { id: 'dog', name: 'イヌ', Icon: DogImage },
   { id: 'cat', name: 'ネコ', Icon: CatImage },
   { id: 'rabbit', name: 'ウサギ', Icon: RabbitImage },
-  { id: 'bird', name: 'トリ', Icon: BirdImage },
-  { id: 'red_panda', name: 'レッサーパンダ', Icon: RedPandaImage },
-  { id: 'koala', name: 'コアラ', Icon: KoalaImage },
   { id: 'panda', name: 'パンダ', Icon: PandaImage },
-  { id: 'hedgehog', name: 'ハリネズミ', Icon: HedgehogImage },
+  { id: 'bird', name: 'トリ', Icon: BirdImage },
 ];
 
 export const FOOD_ITEMS: InteractionItem[] = [

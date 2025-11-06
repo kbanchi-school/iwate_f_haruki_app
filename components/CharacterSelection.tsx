@@ -1,3 +1,4 @@
+
 import React, { useContext } from 'react';
 import { PetContext } from '../context/PetContext';
 import { PET_CHARACTERS } from '../constants';
@@ -16,7 +17,7 @@ const CharacterSelection: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center h-full p-4">
       <h1 className="text-2xl sm:text-3xl font-bold text-brand-pink-700 mb-6 text-center">ペットをえらんでね！</h1>
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6">
+      <div className="grid grid-cols-3 gap-4 sm:gap-6">
         {PET_CHARACTERS.map((pet) => (
           <button
             key={pet.id}
